@@ -1,0 +1,27 @@
+{
+  "name": "cardcast",
+  "version": "0.0.1",
+  "description": "CardCast API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crude-cards/node-cardcast.git"
+  },
+  "keywords": [
+    "cardcast",
+    "crude-cards",
+		"api"
+  ],
+  "author": "Amish Shah <amishshah.2k@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/crude-cards/node-cardcast/issues"
+  },
+  "homepage": "https://github.com/crude-cards/node-cardcast#readme",
+  "dependencies": {
+    "snekfetch": "^3.1.8"
+  }
+}
