@@ -64,5 +64,7 @@ cardcast
 	- Integer in the range `1` and `50` (inclusive)
 - `?offset`
 	- The offset (pagination)
+- `?author`
+	- The username of the author of the deck
 - `search`
 	- The search query
