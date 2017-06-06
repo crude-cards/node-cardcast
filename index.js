@@ -7,3 +7,8 @@ module.exports = id => ({
   calls() { return request.get(`${base}/decks/${id}/calls`).then(r => r.body); },
   cost() { return request.get(`${base}/decks/${id}/cost`).then(r => r.body); },
 });
+
+module.exports.search = options => {
+	const params = Object.entries(options).map(v => `${v[0]}=${encodeURIComponent(v[1])}`).join('&');
+	return request.get(`${base}/decks?${params}`).then(r => r.body);
+};
